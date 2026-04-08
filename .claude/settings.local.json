@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat .github/workflows/*.yml)",
+      "Bash(gh repo:*)",
+      "Bash(git fetch:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m ':*)",
+      "Bash(rm /Users/tlasisi/GitHub/anthro-faculty-dashboard/.git/index.lock)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)"
+    ]
+  }
+}
